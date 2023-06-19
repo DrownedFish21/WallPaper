@@ -64,7 +64,7 @@ namespace WallPaper
                 //index = 2;
                 evn.Temp = 2;
             }
-            else if (now.Hour > NightBgn.Value.Hour && now.Hour < NightEnd.Value.Hour)
+            else if (now.Hour > NightBgn.Value.Hour)
             {
                 //夜晚
                 //index = 3;
